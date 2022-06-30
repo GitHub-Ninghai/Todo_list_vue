@@ -1,31 +1,25 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
+    <h2>
+      这是一个供您记录任务并打卡的小小备忘录网站(*^▽^*)<br>
+      <!-- Vue官方文档
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>. -->
+    </h2>
+    <h3>常用网站链接</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <li><a href="https://home.code-nav.cn/" target="_blank" rel="noopener">百度</a></li>
+      <li><a href="https://www.bilibili.com/" target="_blank" rel="noopener">B站</a></li>
+      <li><a href="https://www.code-nav.cn/" target="_blank" rel="noopener">编程导航</a></li>
+      <li><a href="https://www.csdn.net/" target="_blank" rel="noopener">CSDN</a></li>
+      <li><a href="https://github.com/" target="_blank" rel="noopener">github</a></li>
     </ul>
-    <h3>Essential Links</h3>
+     <h3>学校相关链接</h3>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+      <li><a href="https://www.lnkjzm.cn/" target="_blank" rel="noopener">筑梦辽科</a></li>
+      <li><a href="http://cxcyxy.lnist.edu.cn/" target="_blank" rel="noopener">创新创业学院</a></li>
+      <li><a href="https://lkyjw.lnist.edu.cn/" target="_blank" rel="noopener">教务在线</a></li>
+      <li><a href="http://210.30.224.150/cxxf/" target="_blank" rel="noopener">双创学分系统</a></li>
     </ul>
   </div>
 </template>
@@ -53,6 +47,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: skyblue;
 }
 </style>
